@@ -1,0 +1,54 @@
+.calendar {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-grid-item {
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
+.modal-body {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.has-event {
+    position: relative;
+  }
+  
+  .has-event .event-title {
+    width: 100%;
+    background-color: #28a745; /* Green strip background color */
+    color: white;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin: 2px 0;
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .has-event .event-title:hover {
+    background-color: #5cb85c; /* Lighter shade of green */
+  }
+
+  .sub-event-style {
+    background-color: rgb(0, 172, 230); /* Or any other desired color */
+    padding: 2px 5px;
+    font-size: 12px;
+    margin: 2px 0;
+    color: white;
+}
+
+
+
